@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:twitter="http://api.twitter.com" version="2.0">
+  <channel>
+    <title>The Panda Log</title>
+    <link>http://twitter.com/pandalog</link>
+    
+    <description>http://twitter.com/pandalog</description>
+    <language>en-us</language>
+    <ttl>40</ttl>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/pandalog" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="pandalog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+    <title>pandalog: Nyan Cat in 688 lines of CSS (for latest Chrome and FF) http://t.co/iNVDxBQ</title>
+    <description>pandalog: Nyan Cat in 688 lines of CSS (for latest Chrome and FF) http://t.co/iNVDxBQ</description>
+    <pubDate>Sun, 19 Jun 2011 12:58:04 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/82431956993851392</guid>
+    <link>http://twitter.com/pandalog/statuses/82431956993851392</link>
+    <twitter:source>&lt;a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow"&gt;Twitter for Mac&lt;/a&gt;</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @devongovett: This WebGL based image editor keeps getting better. Check out the new "Curves" editing UI. Sexy! http://t.co/cZ3VD43</title>
+    <description>pandalog: RT @devongovett: This WebGL based image editor keeps getting better. Check out the new "Curves" editing UI. Sexy! http://t.co/cZ3VD43</description>
+    <pubDate>Sat, 18 Jun 2011 22:42:32 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/82216653512904704</guid>
+    <link>http://twitter.com/pandalog/statuses/82216653512904704</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @beverloo: WebRTC has landed in Chromium! http://t.co/1EJQq2J http://t.co/5TmPZhy #WebRTC #HTML5</title>
+    <description>pandalog: RT @beverloo: WebRTC has landed in Chromium! http://t.co/1EJQq2J http://t.co/5TmPZhy #WebRTC #HTML5</description>
+    <pubDate>Sat, 18 Jun 2011 16:21:59 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/82120883862376448</guid>
+    <link>http://twitter.com/pandalog/statuses/82120883862376448</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @mikebelshe: Most exciting part about #Velocity:  Firefox publicly announced that they will try SPDY.   @chrisblizzard - Woohoo!  #fi ...</title>
+    <description>pandalog: RT @mikebelshe: Most exciting part about #Velocity:  Firefox publicly announced that they will try SPDY.   @chrisblizzard - Woohoo!  #fi ...</description>
+    <pubDate>Sat, 18 Jun 2011 01:39:37 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/81898829997277184</guid>
+    <link>http://twitter.com/pandalog/statuses/81898829997277184</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: Preview of the new Panda homepage! http://t.co/udpDbtj Releasing in a few days/weeks with the new preprocessed feed.</title>
+    <description>pandalog: Preview of the new Panda homepage! http://t.co/udpDbtj Releasing in a few days/weeks with the new preprocessed feed.</description>
+    <pubDate>Thu, 16 Jun 2011 01:48:21 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/81176250688880640</guid>
+    <link>http://twitter.com/pandalog/statuses/81176250688880640</link>
+    <twitter:source>&lt;a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow"&gt;Twitter for Mac&lt;/a&gt;</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @ChromiumDev: No more excuses for misspellings. A SpellCheck API landed in Chromium nightlies - http://peter.sh/experiments/spellchec ...</title>
+    <description>pandalog: RT @ChromiumDev: No more excuses for misspellings. A SpellCheck API landed in Chromium nightlies - http://peter.sh/experiments/spellchec ...</description>
+    <pubDate>Thu, 16 Jun 2011 01:36:05 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/81173164205416448</guid>
+    <link>http://twitter.com/pandalog/statuses/81173164205416448</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @seldo: On why ORM is an anti-pattern: http://ljv.me/9U I tried to be as un-ranty as possible.</title>
+    <description>pandalog: RT @seldo: On why ORM is an anti-pattern: http://ljv.me/9U I tried to be as un-ranty as possible.</description>
+    <pubDate>Thu, 16 Jun 2011 01:29:10 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/81171424395542528</guid>
+    <link>http://twitter.com/pandalog/statuses/81171424395542528</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @kangax: Refactor your Javascript with kratko.js — http://perfectionkills.com/refactoring-javascript-with-kratko-js</title>
+    <description>pandalog: RT @kangax: Refactor your Javascript with kratko.js — http://perfectionkills.com/refactoring-javascript-with-kratko-js</description>
+    <pubDate>Thu, 16 Jun 2011 01:26:28 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/81170744486273025</guid>
+    <link>http://twitter.com/pandalog/statuses/81170744486273025</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @devongovett: Flow: The JavaScript Framework aiming to fix the DOM API: http://t.co/sv3v75X</title>
+    <description>pandalog: RT @devongovett: Flow: The JavaScript Framework aiming to fix the DOM API: http://t.co/sv3v75X</description>
+    <pubDate>Thu, 16 Jun 2011 01:15:28 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/81167976858001408</guid>
+    <link>http://twitter.com/pandalog/statuses/81167976858001408</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @ChromiumDev: Two bomb WebGL articles by @aerotwist. Getting started with three.js (http://goo.gl/wO3dG) and Intro to Shaders (http:/ ...</title>
+    <description>pandalog: RT @ChromiumDev: Two bomb WebGL articles by @aerotwist. Getting started with three.js (http://goo.gl/wO3dG) and Intro to Shaders (http:/ ...</description>
+    <pubDate>Tue, 14 Jun 2011 20:35:55 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/80735238212423680</guid>
+    <link>http://twitter.com/pandalog/statuses/80735238212423680</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @paul_irish: Excellent series; 30 Days of &amp;lt;canvas&amp;gt; experiments by Keith Peters: http://t.co/C1lUIXS From basics to badass.</title>
+    <description>pandalog: RT @paul_irish: Excellent series; 30 Days of &amp;lt;canvas&amp;gt; experiments by Keith Peters: http://t.co/C1lUIXS From basics to badass.</description>
+    <pubDate>Tue, 14 Jun 2011 20:35:37 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/80735162689794048</guid>
+    <link>http://twitter.com/pandalog/statuses/80735162689794048</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: ASCII diagram creator http://t.co/JUF7pQ3</title>
+    <description>pandalog: ASCII diagram creator http://t.co/JUF7pQ3</description>
+    <pubDate>Tue, 14 Jun 2011 08:13:17 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/80548348318330880</guid>
+    <link>http://twitter.com/pandalog/statuses/80548348318330880</link>
+    <twitter:source>&lt;a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow"&gt;Twitter for Mac&lt;/a&gt;</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: “[Node.js] is an approximation of what Erlang provides” http://t.co/oqX00Do</title>
+    <description>pandalog: “[Node.js] is an approximation of what Erlang provides” http://t.co/oqX00Do</description>
+    <pubDate>Tue, 14 Jun 2011 07:45:41 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/80541403658207232</guid>
+    <link>http://twitter.com/pandalog/statuses/80541403658207232</link>
+    <twitter:source>&lt;a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow"&gt;Twitter for Mac&lt;/a&gt;</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: No-fee one-year MSc positions in Dublin Institute of Technology, plus a permanent job http://t.co/lWFxrkd /via @avtarasov /cc @ditofficial</title>
+    <description>pandalog: No-fee one-year MSc positions in Dublin Institute of Technology, plus a permanent job http://t.co/lWFxrkd /via @avtarasov /cc @ditofficial</description>
+    <pubDate>Tue, 14 Jun 2011 07:35:33 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/80538851696840705</guid>
+    <link>http://twitter.com/pandalog/statuses/80538851696840705</link>
+    <twitter:source>&lt;a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow"&gt;Twitter for Mac&lt;/a&gt;</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @ryah: #nodecamp.eu links http://t.co/YBwiiJa</title>
+    <description>pandalog: RT @ryah: #nodecamp.eu links http://t.co/YBwiiJa</description>
+    <pubDate>Tue, 14 Jun 2011 07:09:50 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/80532382729519104</guid>
+    <link>http://twitter.com/pandalog/statuses/80532382729519104</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @mathias: Book of Speed — a free, online, open-source book about web performance by @stoyanstefanov: http://www.bookofspeed.com/</title>
+    <description>pandalog: RT @mathias: Book of Speed — a free, online, open-source book about web performance by @stoyanstefanov: http://www.bookofspeed.com/</description>
+    <pubDate>Mon, 13 Jun 2011 12:46:53 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/80254813195079680</guid>
+    <link>http://twitter.com/pandalog/statuses/80254813195079680</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @paul_irish: Again! The .jp frontend hackers are crazy good. This time: tic-tac-toe w/o javascript. Polished &amp; w/ an AI opponent! htt ...</title>
+    <description>pandalog: RT @paul_irish: Again! The .jp frontend hackers are crazy good. This time: tic-tac-toe w/o javascript. Polished &amp; w/ an AI opponent! htt ...</description>
+    <pubDate>Fri, 10 Jun 2011 21:26:42 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/79298468388143104</guid>
+    <link>http://twitter.com/pandalog/statuses/79298468388143104</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: A safer approach to mixins in JavaScript http://t.co/EVxnwgN</title>
+    <description>pandalog: A safer approach to mixins in JavaScript http://t.co/EVxnwgN</description>
+    <pubDate>Fri, 10 Jun 2011 20:40:13 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/79286769396367361</guid>
+    <link>http://twitter.com/pandalog/statuses/79286769396367361</link>
+    <twitter:source>&lt;a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow"&gt;Twitter for Mac&lt;/a&gt;</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: RT @maraksquires: https://github.com/hij1nx/EventEmitter2 is fucking awesome. I &amp;lt;3 name-spaced events. #nodejs #javascript</title>
+    <description>pandalog: RT @maraksquires: https://github.com/hij1nx/EventEmitter2 is fucking awesome. I &amp;lt;3 name-spaced events. #nodejs #javascript</description>
+    <pubDate>Fri, 10 Jun 2011 00:32:30 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/78982839118462978</guid>
+    <link>http://twitter.com/pandalog/statuses/78982839118462978</link>
+    <twitter:source>web</twitter:source>
+    <twitter:place />
+  </item>
+  <item>
+    <title>pandalog: What does V8 do with that loop? http://t.co/WDsEeZR</title>
+    <description>pandalog: What does V8 do with that loop? http://t.co/WDsEeZR</description>
+    <pubDate>Thu, 09 Jun 2011 16:43:49 +0000</pubDate>
+    <guid>http://twitter.com/pandalog/statuses/78864887442440192</guid>
+    <link>http://twitter.com/pandalog/statuses/78864887442440192</link>
+    <twitter:source>&lt;a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow"&gt;Twitter for Mac&lt;/a&gt;</twitter:source>
+    <twitter:place />
+  </item>
+  </channel>
+</rss>
