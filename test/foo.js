@@ -8,19 +8,15 @@ var fa = new FiniteAutomata();
   [3,'c',4],
   [4,'d',1],
   [2,'',2]
-].forEach(function(t){
-  fa.transition.apply(fa,t);
+].forEach(function(t) {
+  fa.transition.apply(fa, t);
 });
 
-fa.on(1,function(x){
+fa.on(1, function(x) {
   console.log(x + '*** OK');
 });
 
-fa.setState({1:true},'test');
-
-['a','b','c','d','b','c','d'].forEach(function(x){
-//  fa.go(x,'-');
-});
+fa.setState({1: true}, 'test');
 
 var graph = [{
   a: [{
@@ -44,13 +40,13 @@ var graph = [{
   }]
 }];
 
-function walk(list, indent){
-  for(var i=0; i<list.length; i++) {
+function walk(list, indent) {
+  for(var i=0; i < list.length; i++) {
     var obj = list[i];
-    for(var tag in obj) if (obj.hasOwnProperty(tag)) {
+    for (var tag in obj) if (obj.hasOwnProperty(tag)) {
       console.log(indent + '<' + tag + '>');
       fa.push(tag);
-      walk(obj[tag],indent + '  ');
+      walk(obj[tag], indent + '  ');
       console.log(indent + '</' + tag + '>');
       fa.pop(indent);
     }
