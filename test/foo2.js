@@ -8,7 +8,7 @@ xml.on('endElement: channel > title', function(item, context, trace) {
   console.log(trace);
 });
 xml.on('endElement: rss', function(rss) {
-  console.log(rss['@']['xmlns:atom']);
+  console.log(rss.$['xmlns:atom']);
 });
 xml.on('text: channel > title', function(item) {
   console.log(item);
