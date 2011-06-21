@@ -1,21 +1,21 @@
 {
   "name": "xml-stream",
   "description": "XML stream to JavaScript object converter based on Expat.",
-  "keywords": ["xml", "parser", "expat"],
-  "version": "0.1.0",
+  "keywords": [
+    "xml",
+    "parser",
+    "expat"
+  ],
+  "version": "0.2.0",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
-    {
-      "name": "Anatoly Ressin",
-      "email": "aarnow@gmail.com"
-    },
-    {
-      "name": "Dimitry Solovyov",
-      "email": "dimituri@gmail.com",
-      "web": "http://100-hour.com"
-    }
+    "Anatoly Ressin <aarnow@gmail.com>",
+    "Dimitry Solovyov <dimituri@gmail.com> (http://100-hour.com)"
   ],
-  "repository": "git://github.com/assistunion/xml-stream.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/assistunion/xml-stream.git"
+  },
   "dependencies": {
     "node-expat": "~1.3.1"
   },
