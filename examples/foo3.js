@@ -4,7 +4,7 @@ var fs = require('fs');
 var xml = new XmlStream(fs.createReadStream(__dirname + '/pandalog.xml'));
 xml.on('startElement: item', function(node) {
   node.name = 'cake';
-  node.element.$.foo = 'bar';
+  node.element.$.foo = 'bar<>';
 });
 xml.on('text: item > description', function(node) {
   node.text = node.text.replace(/^[^:]+:\s+/, '');
