@@ -11,8 +11,7 @@ var request = http.get({
   var xml = new XmlStream(response);
 
   // When each item node is completely parsed, buffer its contents
-  xml.on('updateElement: item', function(node) {
-    var item = node.element;
+  xml.on('updateElement: item', function(item) {
     // Change <title> child to a new value, composed of its previous value
     // and the value of <pubDate> child.
     item.title = item.title.match(/^[^:]+/)[0] + ' on ' +
@@ -21,10 +20,10 @@ var request = http.get({
 
   // When <item>'s <description> descendant text is completely parsed,
   // buffer it and pass the containing node
-  xml.on('text: item > description', function(node) {
+  xml.on('text: item > description', function(element) {
     // Modify the <description> text to make it more readable,
     // highlight Twitter-specific and other links
-    node.text = node.text
+    element.$text = element.$text
       .replace(/^[^:]+:\s+/, '')
       .replace(/[a-z]+(?:\/\/)?:[^\s]+/ig, '<a href="$&">$&</a>')
       .replace(/#[^\s]+/g, '<a href="https://twitter.com/search/$&">$&</a>')
