@@ -23,11 +23,14 @@ var request = http.get({
   xml.on('text: item > description', function(element) {
     // Modify the <description> text to make it more readable,
     // highlight Twitter-specific and other links
+    var url = /(^|\s+)([a-z]+(?:\/\/)?:[^\s]+)/ig;
+    var hashtag = /(^|\s+)(#[\w]+)/g;
+    var username = /(^|\s+)@([\w]+)/g;
     element.$text = element.$text
       .replace(/^[^:]+:\s+/, '')
-      .replace(/[a-z]+(?:\/\/)?:[^\s]+/ig, '<a href="$&">$&</a>')
-      .replace(/#[^\s]+/g, '<a href="https://twitter.com/search/$&">$&</a>')
-      .replace(/@([^\s]+)/g, '<a href="https://twitter.com/$1">$&</a>');
+      .replace(url, '$1<a href="$2">$2</a>')
+      .replace(hashtag, '$1<a href="https://twitter.com/search/$2">$2</a>')
+      .replace(username, '$1<a href="https://twitter.com/$2">@$2</a>');
   });
 
   // When each chunk of unselected on unbuffered data is returned,
