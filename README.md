@@ -36,3 +36,37 @@ Selector syntax is CSS-like and currently supports:
 * `parent > child`
 
 Take a look at the examples for more information.
+
+## Element Node
+
+Each of the four node events has a callback with one argument. Whan parsing,
+this argument is set to the current matched node. Having a chunk of XML like
+this:
+
+```xml
+<item id="123" type="common">
+  <title>Item Title</title>
+  <description>Description of this item.</description>
+  (text)
+</item>
+```
+
+The structure of the **item** element node would be:
+
+```javascript
+{
+  title: 'Item Title',
+  description: 'Description of this item.'
+  '$': {
+    'id': '123',
+    'type': 'common'
+  },
+  '$name': 'item'
+  '$text': '\n  \n  \n  (text)\n'
+}
+```
+
+Naturally, element text and child elements wouldn't be known until discovered
+in the stream, so the structure may differ across events. The complete
+structure as displayed should be available on `updateElement` and `endElement`
+events.
