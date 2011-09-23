@@ -56,17 +56,17 @@ The structure of the **item** element node would be:
 ```javascript
 {
   title: 'Item Title',
-  description: 'Description of this item.'
+  description: 'Description of this item.',
   '$': {
     'id': '123',
     'type': 'common'
   },
-  '$name': 'item'
-  '$text': '\n  \n  \n  (text)\n'
+  '$name': 'item',
+  '$text': '(text)'
 }
 ```
 
 Naturally, element text and child elements wouldn't be known until discovered
 in the stream, so the structure may differ across events. The complete
-structure as displayed should be available on `updateElement` and `endElement`
-events.
+structure as displayed should be available on **updateElement**. The **$name**
+is not available on **endElement**.
