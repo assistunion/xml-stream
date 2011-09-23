@@ -39,7 +39,7 @@ Take a look at the examples for more information.
 
 ## Element Node
 
-Each of the four node events has a callback with one argument. Whan parsing,
+Each of the four node events has a callback with one argument. When parsing,
 this argument is set to the current matched node. Having a chunk of XML like
 this:
 
