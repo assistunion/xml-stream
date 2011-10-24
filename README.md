@@ -72,3 +72,53 @@ Naturally, element text and child elements wouldn't be known until discovered
 in the stream, so the structure may differ across events. The complete
 structure as displayed should be available on **updateElement**. The **$name**
 is not available on **endElement**.
+
+# Collecting Children
+
+It is sometimes required to select elements that have many children with
+one and the same name. Like this XML:
+
+```xml
+<item id="1">
+  <subitem>one</subitem>
+  <subitem>two</subitem>
+</item>
+<item id="2">
+  <subitem>three</subitem>
+  <subitem>four</subitem>
+  <subitem>five</subitem>
+</item>
+```
+
+By default, parsed element node contains children as properties. In the case
+of several children with same names, the last one would overwrite others.
+To collect all of *subitem* elements in an array use **collect**:
+
+```javascript
+xml.collect('subitem');
+xml.on('endElement: item', function(item) {
+  console.log(item);
+})
+```
+
+# Preserving Elements and Text
+
+By default, element text is returned as one concatenated string. In this XML:
+
+```xml
+<item>
+  one <a>1</b>
+  two <a>2</b>
+</item>
+```
+
+The value of **$text** for *item* would be: `one 1 two 2` without any
+indication of the order of element *a*, element *b*, and text parts.
+To preserve this order:
+
+```javascript
+xml.preserve('item');
+xml.on('endElement: item', function(item) {
+  console.log(item);
+})
+```
