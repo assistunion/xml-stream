@@ -1,0 +1,15 @@
+<root>
+  <item>
+    1 <subitem>one</subitem>
+    2 <subitem>two</subitem>
+    3 <subitem>three</subitem>
+  </item>
+  <item>
+    4 <subitem>four</subitem>
+    5 <subitem>
+      five
+      <letter>A</letter>
+      <letter>B</letter>
+    </subitem>
+  </item>
+</root>
