@@ -4,7 +4,7 @@ var XmlStream = require('../lib/xml-stream');
 // Request an RSS for a Twitter stream
 var request = http.get({
   host: 'twitter.com',
-  path: '/statuses/user_timeline/301879799.rss' // @pandalog
+  path: '/statuses/user_timeline/289849522.rss' // @dimituri
 }).on('response', function(response) {
   // Pass the response as UTF-8 to XmlStream
   response.setEncoding('utf8');
@@ -15,7 +15,7 @@ var request = http.get({
     // Change <title> child to a new value, composed of its previous value
     // and the value of <pubDate> child.
     item.title = item.title.match(/^[^:]+/)[0] + ' on ' +
-      item.pubDate.replace(/ +[0-9]{4}/, '');
+      item.pubDate.replace(/ \+[0-9]{4}/, '');
   });
 
   // When <item>'s <description> descendant text is completely parsed,
