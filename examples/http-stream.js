@@ -3,8 +3,8 @@ var XmlStream = require('../lib/xml-stream');
 
 // Request an RSS for a Twitter stream
 var request = http.get({
-  host: 'twitter.com',
-  path: '/statuses/user_timeline/289849522.rss' // @dimituri
+  host: 'api.twitter.com',
+  path: '/1/statuses/user_timeline/dimituri.rss'
 }).on('response', function(response) {
   // Pass the response as UTF-8 to XmlStream
   response.setEncoding('utf8');
@@ -23,14 +23,14 @@ var request = http.get({
   xml.on('text: item > description', function(element) {
     // Modify the <description> text to make it more readable,
     // highlight Twitter-specific and other links
-    var url = /(^|\s+)([a-z]+(?:\/\/)?:[^\s]+)/ig;
-    var hashtag = /(^|\s+)(#[\w]+)/g;
-    var username = /(^|\s+)@([\w]+)/g;
+    var url = /\b[a-zA-Z][a-zA-Z0-9\+\.\-]+:[^\s]+/g;
+    var hashtag = /\b#[\w]+/g;
+    var username = /\b@([\w]+)/g;
     element.$text = element.$text
-      .replace(/^[^:]+:\s+/, '')
-      .replace(url, '$1<a href="$2">$2</a>')
-      .replace(hashtag, '$1<a href="https://twitter.com/search/$2">$2</a>')
-      .replace(username, '$1<a href="https://twitter.com/$2">@$2</a>');
+      .replace(/^[^:]+:\s+/, '') //strip username prefix from tweet
+      .replace(url, '<a href="$0">$0</a>')
+      .replace(hashtag, '<a href="https://twitter.com/search/$0">$0</a>')
+      .replace(username, '<a href="https://twitter.com/$1">$0</a>');
   });
 
   // When each chunk of unselected on unbuffered data is returned,
