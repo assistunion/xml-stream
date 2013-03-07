@@ -122,3 +122,14 @@ xml.on('endElement: item', function(item) {
   console.log(item);
 })
 ```
+
+# Pause and resume parsing
+
+If you want parsing to pause (for example, until some asynchronous operation 
+of yours is finished), you can pause and resume XML parsing:
+´´´javascript
+xml.pause();
+myAsyncFunction( function() {
+  xml.resume();
+});
+```
