@@ -133,3 +133,5 @@ myAsyncFunction( function() {
   xml.resume();
 });
 ```
+Beware that resume() **must not** be called from within a handler callback.
+
