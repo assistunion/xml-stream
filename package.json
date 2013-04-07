@@ -6,10 +6,10 @@
     "parser",
     "expat"
   ],
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
-    "Anatoly Ressin <aarnow@gmail.com>",
+    "Anatoly Ressin <anatoly@assistunion.com>",
     "Dimitry Solovyov <dimituri@gmail.com> (http://100-hour.com)"
   ],
   "repository": {
