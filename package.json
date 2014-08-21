@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "iconv": "~2.0.0",
-    "node-expat": "~2.0.0",
+    "node-expat": "^2.3.1",
     "readable-stream": "^1.0.31"
   },
   "directories": {
