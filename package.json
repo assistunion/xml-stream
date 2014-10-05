@@ -6,7 +6,7 @@
     "parser",
     "expat"
   ],
-  "version": "0.4.4",
+  "version": "0.4.5",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
     "Anatoly Ressin <anatoly@assistunion.com>",
