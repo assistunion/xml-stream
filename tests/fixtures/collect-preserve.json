@@ -1,0 +1,158 @@
+[
+    {
+        "$children": [
+            "\n",
+            "    1 ",
+            {
+                "$children": [
+                    "one"
+                ],
+                "$name": "subitem",
+                "$text": "one"
+            },
+            "\n",
+            "    2 ",
+            {
+                "$children": [
+                    "two"
+                ],
+                "$name": "subitem",
+                "$text": "two"
+            },
+            "\n",
+            "    3 ",
+            {
+                "$children": [
+                    "three"
+                ],
+                "$name": "subitem",
+                "$text": "three"
+            },
+            "\n",
+            "  "
+        ],
+        "$name": "item",
+        "$text": "\n    1 \n     2 \n     3 \n  ",
+        "subitem": [
+            {
+                "$children": [
+                    "one"
+                ],
+                "$name": "subitem",
+                "$text": "one"
+            },
+            {
+                "$children": [
+                    "two"
+                ],
+                "$name": "subitem",
+                "$text": "two"
+            },
+            {
+                "$children": [
+                    "three"
+                ],
+                "$name": "subitem",
+                "$text": "three"
+            }
+        ]
+    },
+    {
+        "$children": [
+            "\n",
+            "    4 ",
+            {
+                "$children": [
+                    "four"
+                ],
+                "$name": "subitem",
+                "$text": "four"
+            },
+            "\n",
+            "    5 ",
+            {
+                "$children": [
+                    "\n",
+                    "      five",
+                    "\n",
+                    "      ",
+                    {
+                        "$children": [
+                            "A"
+                        ],
+                        "$name": "letter",
+                        "$text": "A"
+                    },
+                    "\n",
+                    "      ",
+                    {
+                        "$children": [
+                            "B"
+                        ],
+                        "$name": "letter",
+                        "$text": "B"
+                    },
+                    "\n",
+                    "    "
+                ],
+                "$name": "subitem",
+                "$text": "\n      five\n      \n      \n    ",
+                "letter": {
+                    "$children": [
+                        "B"
+                    ],
+                    "$name": "letter",
+                    "$text": "B"
+                }
+            },
+            "\n",
+            "  "
+        ],
+        "$name": "item",
+        "$text": "\n    4 \n     5 \n  ",
+        "subitem": [
+            {
+                "$children": [
+                    "four"
+                ],
+                "$name": "subitem",
+                "$text": "four"
+            },
+            {
+                "$children": [
+                    "\n",
+                    "      five",
+                    "\n",
+                    "      ",
+                    {
+                        "$children": [
+                            "A"
+                        ],
+                        "$name": "letter",
+                        "$text": "A"
+                    },
+                    "\n",
+                    "      ",
+                    {
+                        "$children": [
+                            "B"
+                        ],
+                        "$name": "letter",
+                        "$text": "B"
+                    },
+                    "\n",
+                    "    "
+                ],
+                "$name": "subitem",
+                "$text": "\n      five\n      \n      \n    ",
+                "letter": {
+                    "$children": [
+                        "B"
+                    ],
+                    "$name": "letter",
+                    "$text": "B"
+                }
+            }
+        ]
+    }
+]
