@@ -107,8 +107,8 @@ By default, element text is returned as one concatenated string. In this XML:
 
 ```xml
 <item>
-  one <a>1</b>
-  two <a>2</b>
+  one <a>1</a>
+  two <b>2</b>
 </item>
 ```
 
