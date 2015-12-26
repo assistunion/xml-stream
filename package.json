@@ -6,6 +6,7 @@
     "parser",
     "expat"
   ],
+  "license": "MIT",
   "version": "0.4.5",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
