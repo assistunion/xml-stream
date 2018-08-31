@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<media mediaId="value" lastModified="date" action="add">
+<title size="140" type="full" lang="en">Some title</title>
+<ids>
+<id type="rootId">10000020</id>
+<id type="seriesId">10000020</id>
+<id type="TMSId">SH017461480000</id>
+</ids>
+<image type="image/jpg" width="270" height="360" primary="true" category="Banner">
+<URI>Some URL</URI>
+<caption lang="en">Some title</caption>
+</image>
+</media>
+<media mediaId="p10000020_b_v4_aa" lastModified="2013-06-14T00:00:00Z" action="add">
+<title size="141" type="full" lang="en">Some title</title>
+<ids>
+<id type="rootId">10000020</id>
+<id type="seriesId">10000020</id>
+<id type="TMSId">SH017461480000</id>
+</ids>
+<image type="image/jpg" width="540" height="720" primary="true" category="Banner">
+<URI>Some URL 2</URI>
+<caption lang="en">Some title</caption>
+</image>
+</media>
+</root>

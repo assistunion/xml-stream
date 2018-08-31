@@ -39,6 +39,38 @@ Selector syntax is CSS-like and currently supports:
 
 Take a look at the examples for more information.
 
+## Options
+
+* `encoding`: Default 'utf8'
+* `element`: Parent level tag, most likely an array, to iterate over. (**Required**)
+* `output`: Stream output format `xml` or `json`. Defaults to `xml`.
+* `attributes`: Should tag attributes be returned. Defaults to `true`.
+* `collect`: An array of nested array tags that should be parsed. Defaults to `[]`
+* `preserve`: A collection of items to preserve, see below for more details. Format: `{ "${item}":${whitespace|true} }`
+
+## Getting started
+```javascript
+const fs = require('fs');
+const xmlStream = require('xml-stream');
+
+const input = fs.createReadStream('json.xml');
+const parse = new xmlStream({
+  element: 'media',
+  attributes: false,
+  output:'json',
+  preserve: {},
+  collect:['id']
+});
+
+parse.on('data', function(data) {
+  console.log(data);
+});
+
+
+input
+  .pipe(parse);
+```
+
 ## Element Node
 
 Each of the four node events has a callback with one argument. When parsing,
