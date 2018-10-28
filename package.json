@@ -21,7 +21,7 @@
     "url": "git://github.com/assistunion/xml-stream.git"
   },
   "dependencies": {
-    "iconv": "^2.1.4",
+    "iconv": "^2.3.1",
     "node-expat": "^2.3.7",
     "readable-stream": "^1.0.31"
   },
