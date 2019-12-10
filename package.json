@@ -7,7 +7,7 @@
     "expat"
   ],
   "license": "MIT",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
     "Anatoly Ressin <anatoly@assistunion.com>",
@@ -21,8 +21,8 @@
     "url": "git://github.com/assistunion/xml-stream.git"
   },
   "dependencies": {
-    "iconv": "^2.3.1",
-    "node-expat": "^2.3.7",
+    "iconv": "^2.3.5",
+    "node-expat": "^2.3.18",
     "readable-stream": "^1.0.31"
   },
   "directories": {
